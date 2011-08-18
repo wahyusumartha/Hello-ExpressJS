@@ -1,0 +1,7 @@
+h1=event.name
+p	#{event.name} Reporting : #{event.message}
+p Priority : #{event.priority}
+p
+	a(href="/events", title='back') Back
+p
+	a(href='/events/edit/' + event.id, title'edit events') Edit
